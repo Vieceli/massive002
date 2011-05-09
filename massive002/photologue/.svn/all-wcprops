@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue/admin.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue/urls.py
+END

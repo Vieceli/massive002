@@ -1,0 +1,20 @@
+{% load i18n %}
+
+		
+<div id=insc_email class="insc_email">
+	<form action="" method="post" id="insc_email_form">{% csrf_token %}
+		{{ form.non_field_errors }}
+		<div class="email">
+			{{ form.email.errors }}
+			<label for="id_email">Receba ofertas</label>
+				{{ form.email }}
+		</div>
+		<div class="cidade">
+			{{ form.cidade }}
+		</div>
+		<div id="email_cadastrado">
+		
+		</div>
+		<input type="submit" value="Assinar" onclick="enviarEmailForm(this.form)"/>
+	</form>
+</div>

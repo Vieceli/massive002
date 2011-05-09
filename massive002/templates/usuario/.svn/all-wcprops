@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/masive002/!svn/ver/3/massive002/massive002/templates/usuario
+END
+login_usuario.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/masive002/!svn/ver/5/massive002/massive002/templates/usuario/login_usuario.html
+END
+registra_usuario.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/masive002/!svn/ver/4/massive002/massive002/templates/usuario/registra_usuario.html
+END
+user_logout.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/masive002/!svn/ver/3/massive002/massive002/templates/usuario/user_logout.html
+END

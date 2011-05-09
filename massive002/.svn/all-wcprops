@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/masive002/!svn/ver/3/massive002/massive002
+END
+manage.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/masive002/!svn/ver/3/massive002/massive002/manage.py
+END
+backends.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/masive002/!svn/ver/3/massive002/massive002/backends.py
+END
+local_settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/masive002/!svn/ver/3/massive002/massive002/local_settings.py
+END
+requirements.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/masive002/!svn/ver/3/massive002/massive002/requirements.txt
+END
+run-debug.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/masive002/!svn/ver/3/massive002/massive002/run-debug.sh
+END
+get_map.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/masive002/!svn/ver/3/massive002/massive002/get_map.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/masive002/!svn/ver/3/massive002/massive002/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/masive002/!svn/ver/14/massive002/massive002/settings.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/masive002/!svn/ver/9/massive002/massive002/urls.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/masive002/!svn/ver/3/massive002/massive002/README
+END

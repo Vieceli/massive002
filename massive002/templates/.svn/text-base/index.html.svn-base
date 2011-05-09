@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+
+{% block titulo %}Inicial - {% endblock %}
+
+{% block extralinks %}{% endblock %}
+{% block extracss %}{% endblock %}
+{% block extrajs %}
+
+{% endblock %}
+
+{% block conteudo %}
+<div id="main">
+            <div id="twocolumns">
+                <div class="twocolumns-holder">
+                
+                    <div id="content">
+                        <div class="box">
+                            <div class="box-t">
+                            
+                            </div>
+                            <div class="box-c">
+	                             <div id="oferta_principal">
+									    <h2>{{ oferta_estreia }}</h2>
+									    <a href="{{ oferta_estreia.get_absolute_url }}">Oferta estreando</a>
+									</div>
+                            </div>
+                            <div class="box-b"></div>
+                        </div>
+                        <div class="box box2">
+                            <div class="box-t">
+                            
+                            
+                            </div>
+                            <div class="box-c">
+                             
+                             <div id="oferta_lista">    
+     {% for oferta in ofertas %}
+    <div class="oferta">
+        <h3>{{ oferta }}</h3>
+        <a href="{{ oferta.get_absolute_url }}">Outra Oferta</a>
+        
+    </div>
+    {% endfor %}
+    
+</div>
+                            </div>
+                            <div class="box-b">
+                                     
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div id="sidebar">
+                        <div class="sb-box">
+                            <div class="t"></div>
+                            <div class="c">
+                                <div class="content">
+                                    <h2>Compartilha esta oferta!</h2>
+                                    <ul class="social-services">
+                                        <li>
+
+										<script type="text/javascript">
+										function callPublish(msg, attachment, action_link) {
+										  FB.ensureInit(function () {
+										    FB.Connect.streamPublish('', attachment, action_link);
+										  });
+										}</script>
+
+                                            <a href="" onclick="callPublish('',{'name':'You should get this Massive Coupon!','href':'http://www.massivecoupon.com','description':'{{ oferta.titulo }}'},null);return false;">
+
+                                                <img alt="facebook" src="/media/images/ico-facebook.gif" width="63" height="53" />
+                                                <strong>facebook</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="http://twitter.com/home?status={{ oferta.title}} http://massivecoupon.com">
+                                                <img alt="twitter" src="/media/images/ico-twitter.gif" width="63" height="53" />
+                                                <strong>twitter</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:?body={{ oferta.title }} http://www.massivecoupon.com/ofertas/{{ oferta.city}}/{{ oferta.slug }}/?utm_campaign=VisitorReferral&amp;utm_medium=email&amp;utm_source=anonymous">
+                                                <img alt="Email a friend!" src="/media/images/ico-email.gif" width="63" height="53" />
+                                                <strong>Email a friend!</strong>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="give-box">
+                                        <div class="holder">
+                                            <h3>Give a Massive Coupon as a Gift!</h3>
+                                            <div class="give-txt">
+                                                <img class="png" alt="image description" src="/media/images/ico-coupon.png" width="74" height="47" />
+                                                <a class="btn-buy-gift-card" href="#">Buy Gift Card</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b"></div>
+                        </div>
+                        <div class="sb-box business">
+                            <div class="t"></div>
+                            <div class="c">
+                                <div class="content">
+                                    <strong class="title"><span>Get Your Business on</span> <img alt="MassiveCoupon.com" src="/media/images/logo4.gif" width="69" height="30" /></strong>
+                                    <div class="business-txt">
+                                        <img alt="image description" src="/media/images/ico-business.gif" width="48" height="40" />
+                                        <p><a href="#"><strong>Learn <span>More</span></strong></a> about how MassiveCoupon can help bring tons of customers to your door</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b"></div>
+                        </div>
+                        <div class="sb-box">
+                            <div class="t"></div>
+                            <div class="c">
+                                <div class="content">
+                                    <h3>Como funcionam as Ofertas Clipper</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="b"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+           
+        </div> <!-- end main -->
+ 
+<div id="oferta_principal">
+    <h2>{{ oferta_estreia }}</h2>
+    <a href="{{ oferta_estreia.get_absolute_url }}">Oferta estreando</a>
+</div>
+
+
+{% endblock conteudo %}	

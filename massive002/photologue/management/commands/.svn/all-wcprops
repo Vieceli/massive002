@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue/management/commands
+END
+plcreatesize.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue/management/commands/plcreatesize.py
+END
+plflush.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue/management/commands/plflush.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue/management/commands/__init__.py
+END
+plcache.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue/management/commands/plcache.py
+END
+plinit.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/masive002/!svn/ver/3/massive002/massive002/photologue/management/commands/plinit.py
+END
